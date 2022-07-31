@@ -21,7 +21,7 @@ if (numberString.length == 3) {
 if (numberString[1] === '0' && numberString[2] === '0')
 return (ones[numberString[0]] + ' hundred').replace(/ +/g, ' ').trim();
 else
-return (ones[numberString[0]] + ' ' + 'hundred' + ' ' + toReadable(+(numberString[1] + numberString[2]))).replace(/ +/g, ' ').trim();
+return (ones[numberString[0]] + ' hundred ' + toReadable(+(numberString[1] + numberString[2]))).replace(/ +/g, ' ').trim();
 }
 
 // 1000 and more
